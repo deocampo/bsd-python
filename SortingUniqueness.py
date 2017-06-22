@@ -1,3 +1,6 @@
+"""
+This module is used to execute a sorting algorithm for uniquiness.
+"""
 import sys, getopt
 
 def main(argv):
