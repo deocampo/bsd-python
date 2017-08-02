@@ -7,6 +7,8 @@ https://coderwall.com/p/w78iva/give-your-python-program-a-shell-with-the-cmd-mod
 """
 import sys
 import time
+import SortingUniqueness
+import SumNumbers
 
 # Dependency Check for Python Version - at the very beginning before hitting any code that is not supported in 3.x
 req_python_version = (2, 7, 3)
@@ -44,10 +46,12 @@ def function_installation_exit(msg=""):
 def selection_sorting_uniqueness():
 
     print ('\nYou selected sorting uniqueness. Function will run here ... \n')
+    SortingUniqueness
 
 def selection_sum_numbers():
 
     print ('\nYou selected sum of numbers. Function will run here ... \n')
+    SumNumbers
 
 #############################################################################
 ##    MAIN
@@ -71,7 +75,7 @@ while True:
     option_input = str(raw_input("Select an option from the list above, or type 'q' to quit: " + option_inst))
 
     if option_input == 'q':
-        function_installation_exit(" You selected to end the installation.")
+        function_installation_exit(" You selected to end the runner.")
 
     try:
         int(option_input)
